@@ -10,7 +10,7 @@ type Registry struct {
 	BaseURL *url.URL
 }
 
-var DefaultRegistry = Registry{BaseURL: &url.URL{Scheme: "https", Host: "bower.herokuapp.com"}}
+var DefaultRegistry = Registry{BaseURL: &url.URL{Scheme: "https", Host: "registry.bower.io"}}
 
 type LookupResponse struct {
 	Name string `json:"name"`
